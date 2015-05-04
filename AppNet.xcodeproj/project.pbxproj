@@ -16,6 +16,7 @@
 		589C8B651AF7EAF3009D79DB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589C8B5E1AF7EAC9009D79DB /* Alamofire.framework */; };
 		589C8B661AF7EAF3009D79DB /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 589C8B5E1AF7EAC9009D79DB /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		589C8B6B1AF7EE46009D79DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589C8B6A1AF7EE46009D79DB /* Model.swift */; };
+		589C8B6D1AF806B1009D79DB /* DisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589C8B6C1AF806B1009D79DB /* DisplayTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		58027B571AF7D06400DA463B /* AppNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNetTests.swift; sourceTree = "<group>"; };
 		589C8B561AF7EAC9009D79DB /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../Downloads/Alamofire-master 2/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		589C8B6A1AF7EE46009D79DB /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		589C8B6C1AF806B1009D79DB /* DisplayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				58027B411AF7D06400DA463B /* AppDelegate.swift */,
 				58027B431AF7D06400DA463B /* ViewController.swift */,
 				58027B451AF7D06400DA463B /* Main.storyboard */,
+				589C8B6C1AF806B1009D79DB /* DisplayTableViewCell.swift */,
 				58027B481AF7D06400DA463B /* Images.xcassets */,
 				58027B4A1AF7D06400DA463B /* LaunchScreen.xib */,
 				58027B3F1AF7D06400DA463B /* Supporting Files */,
@@ -321,6 +324,7 @@
 			files = (
 				589C8B6B1AF7EE46009D79DB /* Model.swift in Sources */,
 				58027B441AF7D06400DA463B /* ViewController.swift in Sources */,
+				589C8B6D1AF806B1009D79DB /* DisplayTableViewCell.swift in Sources */,
 				58027B421AF7D06400DA463B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
