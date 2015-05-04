@@ -23,7 +23,6 @@ class DisplayTableViewCell: UITableViewCell {
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        self.sourceLabel.textColor = UIColor.redColor()
         
     }
     
@@ -32,10 +31,24 @@ class DisplayTableViewCell: UITableViewCell {
     }
     
     func configureCell(response: Model) {
-        self.nameLabel.text = response.name
-        self.sourceLabel.text = response.sourceUrl
-        self.messageLabel.text = response.text
-        self.dateLabel.text = response.createdAt
+        if var label = self.nameLabel {
+            label.text = response.name
+        }
+        if var label = self.sourceLabel {
+            label.text = response.sourceUrl
+        }
+        if var label = self.messageLabel {
+            label.text = response.text
+        }
+        if var label = self.dateLabel {
+            label.text = response.createdAt
+        }
+
+        
+//        self.nameLabel.text =  as! String
+//        self.sourceLabel.text = response.sourceUrl as! String
+//        self.messageLabel.text = response.text as! String
+//        self.dateLabel.text = response.createdAt as! String
     }
     
     override func setSelected(selected: Bool, animated: Bool) {

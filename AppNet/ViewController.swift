@@ -27,6 +27,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.registerClass(DisplayTableViewCell.classForCoder(), forCellReuseIdentifier: "cell")
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
 
         Alamofire.request(.GET, "https://alpha-api.app.net/stream/0/posts/stream/global").responseJSON() {
             (_, _, data, _) in
