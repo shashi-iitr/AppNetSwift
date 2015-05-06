@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>DA30FD24-1A70-4801-8D73-D8F831F9830C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>AppNet</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>32C2CA0EFCB190651F3FDED3732F2BEC08A6A275</key>
 		<string>https://github.com/shashi-iitr/AppNetSwift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AppNet.xcodeproj</string>
+	<string>AppNet.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>32C2CA0EFCB190651F3FDED3732F2BEC08A6A275</key>

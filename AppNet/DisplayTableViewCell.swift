@@ -44,17 +44,10 @@ class DisplayTableViewCell: UITableViewCell {
             label.text = response.createdAt
         }
 
-        
-//        self.nameLabel.text =  as! String
-//        self.sourceLabel.text = response.sourceUrl as! String
-//        self.messageLabel.text = response.text as! String
-//        self.dateLabel.text = response.createdAt as! String
     }
     
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }
